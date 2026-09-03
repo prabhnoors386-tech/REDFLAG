@@ -1,0 +1,1 @@
+export async function loadProjects(){const r=await fetch("/data/projects.json",{cache:"no-store"});if(!r.ok)throw new Error("dataset unavailable");return r.json()}

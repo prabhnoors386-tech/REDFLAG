@@ -1,0 +1,21 @@
+REDFLAG — CLEAN START
+
+IMPORTANT: Extract the ZIP so that package.json is directly inside the folder you open in VS Code.
+
+Then in the VS Code terminal, run:
+
+npm install
+npm run dev
+
+You should NOT be inside an mnt\\data folder.
+
+Correct:
+REDFLAG-MPLADS-MVP-final\\package.json
+REDFLAG-MPLADS-MVP-final\\src\\main.jsx
+
+Wrong:
+REDFLAG-MPLADS-MVP-final\\mnt\\data\\redflag\\package.json
+
+For production:
+npm run build
+npm run preview
